@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: Dancing Script;
+  font-size: 27px;
+}
+body {
+  background-color: rgb(254, 255, 168);
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.box {
+  background-color: rgb(135, 149, 251);
+  display: grid;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 10px 10px 15px rgba(137, 137, 137, 0.392);
+  height: 420px;
+  width: 550px;
+  margin-top: 140px;
+}
+
+.input {
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 290px;
+}
+p {
+  font-weight: 700;
+  font-size: 27px;
+}
+.celsius-container {
+  /* background-color: rgb(81, 174, 255); */
+
+  justify-content: center;
+  height: 40px;
+  margin-top: 30px;
+}
+.fahrenheit-container {
+  /* background-color: blueviolet; */
+  padding: 2px;
+  justify-content: center;
+  height: 40px;
+  margin-top: 0px;
+}
